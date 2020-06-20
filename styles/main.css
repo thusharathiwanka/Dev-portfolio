@@ -79,6 +79,126 @@ main .icon-links img {
   padding-right: 2rem;
 }
 
+main .project-intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2rem;
+}
+
+main .project-intro h1 {
+  font-size: 2rem;
+}
+
+main .project-intro h2 {
+  font-size: 1.2rem;
+}
+
+main .project {
+  padding: 2rem;
+}
+
+main .project-img {
+  height: 100%;
+  width: 100%;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+main .project-img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+main .contact-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .contact-content h1 {
+  font-size: 3rem;
+  padding: 2rem 4rem;
+}
+
+main .contact-content .form-container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .contact-content .form-container {
+  padding: 4rem 10rem;
+  margin: 2rem;
+  -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.199);
+          box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.199);
+}
+
+main .contact-content input,
+main .contact-content textarea {
+  width: 100%;
+  padding: 0.3rem 1rem;
+  background-color: #f1f1f1;
+  outline: none;
+  border: none;
+  -webkit-transition: border 0.3s ease-in-out;
+  transition: border 0.3s ease-in-out;
+}
+
+main .contact-content input:focus,
+main .contact-content textarea:focus {
+  border: 1px solid #6c63ff;
+}
+
+main .contact-content label {
+  font-size: 1.2rem;
+  padding-top: 1.5rem;
+}
+
+main .contact-content #submit-btn {
+  padding: 0.8rem 2rem;
+  width: 100%;
+  margin-top: 2rem;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-family: "montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  background: -webkit-gradient(linear, left top, right top, from(#6c63ff), to(#948dff));
+  background: linear-gradient(to right, #6c63ff, #948dff);
+}
+
 *,
 *::before,
 *::after {
