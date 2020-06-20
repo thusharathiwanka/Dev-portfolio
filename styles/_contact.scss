@@ -6,7 +6,7 @@ main .contact-content {
 
   h1 {
     font-size: 3rem;
-    padding: 2rem 4rem;
+    padding: 1rem 4rem 1rem 4rem;
   }
 
   .form-container form {
@@ -37,7 +37,7 @@ main .contact-content {
 
   label {
     font-size: 1.2rem;
-    padding-top: 1.5rem;
+    padding: 1.5rem 0 0.5rem 0;
   }
 
   #submit-btn {
@@ -51,6 +51,7 @@ main .contact-content {
     font-family: "montserrat", sans-serif;
     font-weight: 500;
     font-size: 1.2rem;
+    cursor: pointer;
     background: linear-gradient(to right, #6c63ff, #948dff);
   }
 }
